@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Login Page -->
+  <div id="login-page">
+    <h1>Welcome to the Quiz Game</h1>
+    <div class="login-options">
+      <button id="google-login" class="login-btn">
+        <img src="https://res.cloudinary.com/dgcyqntse/image/upload/v1732180658/googleimg_oabj9y.png" alt="Google Logo">
+        Login with Google
+      </button>
+      <button id="github-login" class="login-btn">
+        <img src="https://res.cloudinary.com/dgcyqntse/image/upload/v1732180657/github_qdlhnv.jpg" alt="GitHub Logo">
+        Login with GitHub
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Game Page -->
+  <div id="game-page" class="hidden">
+    <h1>Quiz Game</h1>
+    <div class="sections">
+      <button class="section-btn" data-section="html">HTML</button>
+      <button class="section-btn" data-section="css">CSS</button>
+      <button class="section-btn" data-section="js">JavaScript</button>
+    </div>
+    <div id="quiz-area">
+      <p>Select a section to start the game.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

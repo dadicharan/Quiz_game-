@@ -1,0 +1,77 @@
+/* Adjusted styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.login-options {
+    display: flex;
+    gap: 20px;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center; /* Centers the image and text vertically */
+    gap: 15px; /* Adds spacing between the logo and text */
+    padding: 12px 24px; /* Adds some padding to make the buttons larger */
+    font-size: 18px; /* Increases text size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #f0f0f0; /* Slight hover effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-btn img {
+    width: 25px; /* Adjusted logo size */
+    height: 25px;
+}
+
+.sections {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.section-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section-btn:hover {
+    background-color: #0056b3;
+}
+
+#quiz-area {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
